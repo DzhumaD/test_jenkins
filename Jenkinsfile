@@ -6,7 +6,7 @@ pipeline {
         stage('build') {
             steps {
 				echo 'Deploy to staging environment'
-                bat 'python --version'
+                /*bat 'python --version'*/
             }
         }
     }
